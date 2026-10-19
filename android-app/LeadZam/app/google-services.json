@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777704103561",
+    "project_id": "leadzam-7b8ac",
+    "storage_bucket": "leadzam-7b8ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777704103561:android:4a244adb85323362843058",
+        "android_client_info": {
+          "package_name": "com.leadzam.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc4CxHX30op8RW_NunwU3Ii9vByTXOOf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

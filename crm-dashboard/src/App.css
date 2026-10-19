@@ -1,0 +1,187 @@
+.app {
+  min-height: 100vh;
+  background: #f6f7fb;
+  color: #252938;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 7%;
+  background: #fff;
+  border-bottom: 1px solid #e7e9ef;
+}
+
+.header h1 {
+  margin: 0;
+  color: #4f46e5;
+  font-size: 28px;
+}
+
+.header p,
+.page-heading p {
+  margin: 6px 0 0;
+  color: #73798a;
+}
+
+.connection-status {
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #fff4d6;
+  color: #8a6100;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.main {
+  width: min(900px, 86%);
+  margin: 40px auto;
+}
+
+.page-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.page-heading h2 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.lead-count {
+  color: #62687a;
+  font-size: 14px;
+}
+
+.lead-list {
+  display: grid;
+  gap: 16px;
+}
+
+.lead-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e7e9ef;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgb(30 40 80 / 4%);
+}
+
+.lead-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 50%;
+  background: #eeedff;
+  color: #4f46e5;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lead-info h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.phone-number {
+  margin: 7px 0;
+  color: #62687a;
+}
+
+.stage {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 6px;
+  background: #e8f8ed;
+  color: #237b43;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.call-button {
+  padding: 11px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.call-button:hover {
+  background: #4338ca;
+}
+
+.call-button:focus-visible {
+  outline: 3px solid #a5b4fc;
+  outline-offset: 3px;
+}
+
+.status-panel {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid #e7e9ef;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.status-panel span {
+  color: #73798a;
+  font-size: 13px;
+}
+
+.status-panel p {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 24px;
+  color: #73798a;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 20px 6%;
+  }
+
+  .main {
+    width: 90%;
+    margin-top: 28px;
+  }
+
+  .lead-card {
+    padding: 16px;
+  }
+
+  .lead-info {
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .call-button {
+    padding: 10px 15px;
+  }
+}

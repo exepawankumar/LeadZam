@@ -1,0 +1,24 @@
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+backend/credentials/
+**/*service-account*.json
+**/serviceAccountKey.json
+
+# Node.js
+node_modules/
+
+# Android generated files
+.gradle/
+**/.gradle/
+build/
+**/build/
+.idea/
+**/.idea/
+.kotlin/
+**/.kotlin/
+
+# Local configuration
+local.properties

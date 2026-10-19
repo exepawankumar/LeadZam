@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+}
+
+/* Backend connection status */
+.connection-status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Checking backend */
+.connection-status.checking {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+/* Backend is connected */
+.connection-status.connected {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* Backend is disconnected */
+.connection-status.disconnected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
